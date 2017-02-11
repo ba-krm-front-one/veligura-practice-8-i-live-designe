@@ -1,0 +1,90 @@
+body{
+    width: auto;
+    margin: auto;
+}
+.ba-header{
+    background-color: #23232e;
+    width: auto;
+    height: 850px;
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+}
+.ba-header-title{
+    font-family: "Segoe UI";
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 150px;
+}
+.ba-header-a{
+    position: absolute;
+    bottom: 50px;
+}
+.ba-header-a:hover{
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+}
+.ba-header-text{
+    font-family: "Segoe UI";
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 70px;
+}
+.ba-content{
+    background-image: url("../Practice-8-I-love-designe/img/bg.svg");
+    width: auto;
+    height: 850px;
+    padding-top: 60px;
+    text-align: center;
+    margin: auto;
+}
+.ba-content-text{
+    font-family: 'Segoe UI';
+    color: #464b4f;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+
+    max-width: 854px;
+    margin: auto;
+}
+p:nth-child(1){
+    margin-bottom: 30px;
+}
+.ba-content-title{
+    font-family: "Segoe UI";
+    color: #464b4f;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.ba-content-text-inline li{
+    display:inline-block;
+    max-width:286px;
+}
+.ba-content-text-inline h3{
+    font-family: 'Segoe UI';
+    color: #464b4f;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+}
+.ba-content-text-inline p{
+    font-family: 'Segoe UI';
+    color: #888a8b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    padding-right: 20px;
+}
